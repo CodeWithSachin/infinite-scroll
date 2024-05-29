@@ -27,7 +27,7 @@ export class ScrollComponent {
 
     this.loopItems.forEach((loopItem, index) => {
       const delay =
-        (30 / this.loopList.length) * (this.loopList.length - (index + 1)) * -1;
+        (40 / this.loopList.length) * (this.loopList.length - (index + 1)) * -1;
       this.renderer.setStyle(
         loopItem.nativeElement,
         this.scrollTo,
