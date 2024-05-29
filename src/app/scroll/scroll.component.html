@@ -1,0 +1,17 @@
+<div
+  class="relative mt-20 w-[150px] overflow-hidden border-black h-[600px] m-auto wrapper"
+>
+  @for(item of loopList; track item.id){
+  <div
+    #loopItem
+    class="w-[150px] h-[150px] border-lg absolute bg-[#FDFDFFD1] flex justify-center items-center item text-[#0E0E0E] flex-col"
+    [id]="item.id"
+  >
+    <div
+      [innerHtml]="getSanitize(item.svg)"
+      class="relative flex justify-center w-full"
+    ></div>
+    <p class="m-0 text-center">{{ item.name }}</p>
+  </div>
+  }
+</div>

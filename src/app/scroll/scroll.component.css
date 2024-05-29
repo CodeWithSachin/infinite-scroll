@@ -1,0 +1,30 @@
+
+.item {
+  /* top: max(calc(100px * 10), 100%); */
+  /* bottom: max(calc(100px * 10), 100%); */
+  /* bottom: -100px; */
+  border-radius: 10px;
+  border: 0.86px solid #E7E7E7;
+  box-shadow: 0px 5.16px 25.8px 0px #CCCCCC71;
+
+box-shadow: 0px -5.16px 54.18px 0px #FFFFFF6E inset;
+
+box-shadow: 0px -2.58px 6.88px 0px #FFFFFFD1 inset;
+
+
+  /* animation-name: scrollTop; */
+  /* animation-name: scrollBottom; */
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+.wrapper {
+  mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+
+}

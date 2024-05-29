@@ -1,0 +1,14 @@
+/* Add application styles & imports to this file! */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes scrollTop {
+  to {
+    top: -100px;
+  }
+}
+@keyframes scrollBottom {
+  to {
+    bottom: -100px;
+  }
+}
